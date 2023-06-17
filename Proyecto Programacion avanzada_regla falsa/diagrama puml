@@ -1,0 +1,23 @@
+@startuml
+
+class Programa {
+  +iniciar(): void
+}
+
+class Metodo {
+  +evaluar(x: double): double
+  +algoritmo(xu: double, xl: double, e0: double, fu: double, fl: double, fr: double, xr: double, e: double, evaluar: double, el: float, i: int): void
+}
+
+class menup {
+  +mostrarMenu(el: float, xu: double, xl: double): void
+}
+
+
+Programa --> menup
+menup --> Metodo
+
+@enduml
+
+//link para observar el uml en imagen
+//https://plantuml.github.io/plantuml-core/raw.html?bL51JiGm3Bpd5L5Fe5LNSAqux0luGkMc1Y8vySf9UodxTs95WHQux2qUJSOpuqlA87a9P61AMS1bwmXIiYj-UBSGRwPVaTZv6UR1-fZDrfYt4pWa590zzYOOGSp9GPWyo3XxGUSynuT7SpE_rmIumdQGb8a9qnvo8C87vCf4h6fLH0cOKQ2ObIN3g_1Gg3w-gusOHrWofq7DV_zHgD0T4yjW6xi5Abvh47tz7wK9gPVxMmgyeYGyGk9bfmlfhyEMfvRK4caMQxi--5IZsgVpkSnzPmisQYMAF7S_JPbsN_losVTMVnczHHrrztvkv1rKJt31E2-1lW00
